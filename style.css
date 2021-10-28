@@ -1,0 +1,63 @@
+*{
+    font-family: sans-serif;  
+}
+body{
+    background-color: beige;
+    margin: 50px;
+    margin-top: 10px;
+}
+h1{
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 50px;
+    background-color: rgb(32, 174, 209);
+    width: 100%;
+    border-radius: 10px;
+}
+a{
+    
+    color: cornsilk;
+    text-decoration: cornsilk;
+}
+p{
+    text-align: center;
+}
+ul>li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+nav{
+    margin-left: auto;
+    margin-right: 0;
+}
+.main-card{
+    display: inline-block;
+    width: 100%;
+    background-image: linear-gradient(to bottom right,rgb(214, 214, 214), rgb(174, 255, 235));
+    border-radius: 15px;
+    display: flexbox;
+    padding: 10px;
+    text-align: center;
+}
+h4{
+    margin: 0;
+}
+.singer-info{
+    float: left;
+}
+#iu-pic,#eve-pic{
+    float: left;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: 14px;
+}
+#steven-pic{
+    filter: drop-shadow(3px 3px 5px rgb(49, 49, 49));
+    height: 200px;
+    border-radius: 100%;
+    margin-top:-100px;
+}
+ 

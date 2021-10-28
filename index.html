@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven's Blog</title>
+    <style>
+        *{
+        font-family: sans-serif;  
+        }
+        body{
+            background-color: beige;
+            margin: 50px;
+            margin-top: 10px;
+        }
+
+        header{
+            display: flex;
+            height: 50px;
+            background-color: rgb(32, 174, 209);
+            width: 100%;
+            border-radius: 10px;
+        }
+        a{
+            color: cornsilk;
+            text-decoration: cornsilk;
+        }
+        p{
+            text-align: center;
+        }
+        ul>li{
+            list-style: none;
+            display: inline;
+            margin-right: 30px;
+        }
+        nav{
+            margin-left: auto;
+            margin-right: 0;
+        }
+        h1{
+            margin-bottom: 80px;
+        }
+        .my-img{
+            text-align: center;
+        }
+        .main-card{
+            display: inline-block;
+            width: 100%;
+            background-image: linear-gradient(to bottom right,rgb(214, 214, 214), rgb(174, 255, 235));
+            border-radius: 15px;
+            padding: 10px;
+            margin-top: 40px;
+        }
+        h4{
+            margin: 0;
+        }
+        .singer-info{
+            float: left;
+        }
+        #iu-pic,#eve-pic,#twice-pic{
+            float: left;
+            height: 350px;
+            border-radius: 10px;
+            margin-right: 14px;
+        }
+        #steven-pic{
+            filter: drop-shadow(3px 3px 5px rgb(49, 49, 49));
+            height: 200px;
+            border-radius: 100%;
+            margin-top:-100px;
+        }
+        section{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        section>div{
+            margin: 20px;
+        }
+        main{
+            text-align: center;
+        }
+        
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/stvnsrrn_/" target="_blank">INSTAGRAM</a></li>
+                <li><a href="https://www.facebook.com/stvnsrrn18/" >FACEBOOK</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Steven's Blog</h1>
+        
+        <div class="main-card">
+            <div class="my-img">
+                <img id="steven-pic" src="steven.jpg" alt="Steven's Picture">
+            </div>
+            <div class="intro">
+                <h2>Welcome to Steve's Blog Website!</h2>
+                <p>Hi, Welcome to my Personal Space! 
+                    I hope you have a wonderful day today.
+                    Here are the things that you might want to know about me.
+                    I hope you like it, and let's be friends!
+                </p>
+            </div>
+            <!-- list of my hobbies -->
+            <section class="text-info">
+                <div class="hobby-sec">
+                    <h3>My Top Hobbies</h3>
+                    <ol>
+                        <li>Listening Music</li>
+                        <li>Watching Videos about Gadgets</li>
+                        <li>Watching Anime</li>
+                        <li>Playing MMORPG Games</li>
+                        <li>Investing</li>
+                    </ol>
+                </div>
+                <div class="motto-sec">
+                    <h3>MOTTO</h3>
+                    <p>Don't do anything that you already think that <br>
+                        you will regret it.
+                    </p>
+                </div>
+                <div class="mydream-sec">
+                    <h3>My Dream</h3>
+                    <p>My dream is to be a successful and to be a <br> 
+                        great programmer and to be rich, <br>
+                        so I can travel with my family.
+                    </p>
+                </div>
+            </section>
+            <!-- This is where the the info of my favorite singers -->
+            
+                <h3>
+                    My Favorite Singers
+                </h3><br>
+                <section class="pic-info">
+                <div id="iu" class="singer-info">
+                    <h4>Lee Ji Eun </h4>(Korean Singer) <br>
+                    <img id="iu-pic" src="iu.jpeg" alt="IU's Picture">
+                </div>
+                <div id="eve" class="singer-info">
+                    <h4>Eve </h4>(Japanese Singer) <br>
+                    <img id="eve-pic" src="Eve.jpg" alt="Eve's Picture">
+                </div>
+                <div id="twice" class="singer-info">
+                    <h4>TWICE </h4>(Korean Pop) <br>
+                    <img id="twice-pic" src="twice.jpg" alt="IU's Picture">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        Created by: Serrano Steven - BSIS NS-3D    Technological University of the Philippines
+    </footer>
+</body>
+</html>
